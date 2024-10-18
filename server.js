@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import path from 'path';
 import cors from "cors";
-import productRoutes from "./routes/productRoutes.js";
+import productRoutes from "./Routes/productRoutes.js";
 
 // Initialize dotenv to read environment variables
 dotenv.config();
